@@ -18,7 +18,7 @@ while True:
         print('Found Owner:', user_id)
         
         file2 = open("owners.txt", "a")
-        file2.write(f'str({user_id}\n')
+        file2.write(f'{user_id}\n')
         file2.close()
         
     else:
